@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         val button: Button = findViewById(R.id.button)
         button.setOnClickListener {
-            val intent = Intent(this, gengo::class.java)
+            val intent = Intent(this, Gengo::class.java)
             startActivity(intent)
         }
     }

@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".gengo"></activity>
+        <activity android:name=".Gengo"></activity>
     </application>
 
 </manifest>
