@@ -1,4 +1,4 @@
-package com.example.ruico.safetyplus2
+package com.example.ruico.safetyplus
 
 import org.junit.Test
 

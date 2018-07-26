@@ -1,4 +1,4 @@
-package com.example.ruico.safetyplus2
+package com.example.ruico.safetyplus
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
