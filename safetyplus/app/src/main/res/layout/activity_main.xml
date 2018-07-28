@@ -30,7 +30,13 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rogo"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="76dp" />
 
 
 </android.support.constraint.ConstraintLayout>
