@@ -34,9 +34,14 @@
         android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="#00000000"
         app:srcCompat="@drawable/rogo"
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="76dp" />
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+
+
 
 
 </android.support.constraint.ConstraintLayout>
