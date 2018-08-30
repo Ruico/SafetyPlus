@@ -4,14 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Gengo">
+    tools:context=".Oil">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="217dp"
-        tools:layout_editor_absoluteY="0dp">
+        android:orientation="vertical">
+
 
 
         <Button
@@ -23,7 +22,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="60dp"
             android:background="#f6f6f6"
-            android:text="日本語                                                    "
+            android:text="レギュラー                                                "
             android:textSize="20sp"
             tools:layout_editor_absoluteX="21dp"
             tools:layout_editor_absoluteY="58dp" />
@@ -36,11 +35,10 @@
             android:layout_marginEnd="20dp"
             android:layout_marginStart="20dp"
             android:background="#f6f6f6"
-            android:text="한국                                                    "
+            android:text="ハイオク                                                    "
             android:textSize="20sp"
             tools:layout_editor_absoluteX="21dp"
             tools:layout_editor_absoluteY="133dp" />
-
 
         <Button
             android:id="@+id/button6"
@@ -50,31 +48,12 @@
             android:layout_marginEnd="20dp"
             android:layout_marginStart="20dp"
             android:background="#f6f6f6"
-            android:text="中國                                                    "
+            android:text="軽油                                                    "
             android:textSize="20sp"
             tools:layout_editor_absoluteX="21dp"
             tools:layout_editor_absoluteY="234dp" />
 
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="match_parent"
-            android:layout_height="68dp"
-            android:layout_marginBottom="5dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="20dp"
-            android:background="#f6f6f6"
-            android:text="English                                            "
-            android:textSize="20sp"
-            tools:layout_editor_absoluteX="21dp"
-            tools:layout_editor_absoluteY="331dp" />
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/drive6" />
-
-
-
     </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>
+
